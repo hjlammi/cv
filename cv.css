@@ -60,7 +60,7 @@ section.sheet {
   margin-bottom: 10px;
 }
 
-.tiedot {
+.info {
   display: grid;
   grid-template-columns: auto 32%;
   grid-gap: 20px;
