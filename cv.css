@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444444;
+}
+
+section.sheet {
+  display: grid;
+  grid-template-rows: 15% 10px auto;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 32%;
+  grid-gap: 20px;
+}
+
+.photo {
+  background-image: url("cv_tty-5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.info-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.name, .title {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin: auto;
+}
+
+.title {
+  color: #666666;
+}
+
+.breaker {
+  background-color: #999999;
+  height: 4px;
+}
+
+.breaker1 {
+  grid-row: 3;
+  grid-column-start: 2;
+}
+
+.breaker2 {
+  margin: 10px 0;
+}
+
+.breaker3 {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.tiedot {
+  display: grid;
+  grid-template-columns: auto 32%;
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.sidebar {
+  display: grid;
+  align-content: start;
+}
+
+.contact-item {
+  display: flex;
+  margin: 5px 0;
+}
+
+.contact-item img {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.contact-item p {
+  padding-top: 3px;
+}
+
+.info-item {
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  margin: 10px 0;
+}
+
+h1, h2 {
+  font-family: 'Red Hat Text', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.tech li {
+  margin: 3px 0;
+}
+
+.contact, .tech {
+  margin: 10px 0;
+}
+
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.experience-item .heading {
+  display: flex;
+}
+
+.experience-item .heading p {
+  align-self: center;
+  margin-left: 15px;
+}
+
+.experience-item li {
+  list-style-type: disc;
+}
+
+.experience-item ul {
+  padding-left: 10px;
+}
